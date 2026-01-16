@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tickets</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Your Tickets</h2>
+
+    <form id="ticketForm">
+        <input id="title" placeholder="Title">
+        <textarea id="description" placeholder="Description"></textarea>
+        <select id="priority">
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+        </select>
+        <button type="submit">Create Ticket</button>
+    </form>
+
+    <div id="ticketsList"></div>
+</div>
+
+<script src="assets/js/api.js"></script>
+<script src="assets/js/tickets.js"></script>
+</body>
+</html>

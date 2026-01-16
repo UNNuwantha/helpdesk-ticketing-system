@@ -1,0 +1,30 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  margin-top: 80px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+
+input, textarea, select {
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.btn, button {
+  width: 100%;
+  background: #0078ff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+}
