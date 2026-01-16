@@ -30,6 +30,7 @@ CSS3
 
 JavaScript
 
+🛠️ Tech Stack
 Backend
 
 Node.js
